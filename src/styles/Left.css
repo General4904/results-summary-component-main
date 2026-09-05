@@ -1,0 +1,59 @@
+.left {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 1em;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+h3.h3-left {
+    margin: 1em;
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+}
+
+.score-left {
+    margin: 1em;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 12em;
+    width: 12em;
+    border-radius: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-left h1 {
+    font-weight: 800;
+}
+
+.score-left p {
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+}
+
+.great h2 {
+    margin: 1em 0 1em 0;
+    text-align: center;
+}
+
+.great p {
+    margin: 1em;
+    text-align: center;
+    font-weight: 400;
+    color: hsl(241, 100%, 89%);
+}
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+    .left {
+        width: 100%;
+        border-radius: 0 0 20px 20px;
+    }
+}
